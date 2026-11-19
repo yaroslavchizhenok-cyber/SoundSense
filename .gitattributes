@@ -1,0 +1,14 @@
+# Store and check out text files with LF line endings on every OS (overrides core.autocrlf).
+* text=auto eol=lf
+
+# Binary files: never convert or diff.
+*.wav  binary
+*.m4a  binary
+*.mp3  binary
+*.flac binary
+*.pdf  binary
+*.docx binary
+*.png  binary
+*.jpg  binary
+*.pt   binary
+*.pth  binary
