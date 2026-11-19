@@ -1,0 +1,25 @@
+{
+  "mean": -2.076241072847327,
+  "std": 12.241230724401493,
+  "clips": 3993,
+  "values": 51365952,
+  "train_list": "trainSet3.csv",
+  "features": {
+    "sample_rate": 16000,
+    "clip_samples": 32000,
+    "n_fft": 400,
+    "win_length": 400,
+    "hop_length": 160,
+    "n_mels": 64,
+    "f_min": 50.0,
+    "f_max": 8000.0,
+    "window": "hann (periodic)",
+    "center": true,
+    "pad_mode": "reflect",
+    "power": 2.0,
+    "mel_scale": "htk",
+    "norm": null,
+    "log": "10*log10(max(power, 1e-10))",
+    "top_db": 80.0
+  }
+}
