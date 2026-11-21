@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 908" width="1280" height="908" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Headphones with network nodes and an audio waveform</title>
+
+  <g id="headphones" fill="#2C2D30">
+    <path id="headband" d="M145 508
+      C142 275 354 37 638 37
+      C917 37 1125 264 1129 509
+      C1131 529 1109 536 1099 522
+      C1091 508 1079 494 1063 483
+      C1034 255 849 98 638 98
+      C425 98 238 256 210 482
+      C194 493 183 506 175 521
+      C164 534 144 528 145 508Z"/>
+    <path id="left-ear-cup" d="M152 548
+      C105 559 57 609 57 663V721
+      C57 775 102 823 148 836
+      C164 841 175 834 175 820V567
+      C175 553 166 544 152 548Z"/>
+    <rect id="left-ear-pad" x="191" y="498" width="105" height="388" rx="52.5"/>
+    <rect id="right-ear-pad" x="980" y="498" width="105" height="390" rx="52.5"/>
+    <path id="right-ear-cup" d="M1124 548
+      C1171 559 1219 609 1219 663V721
+      C1219 775 1174 823 1129 836
+      C1113 841 1102 834 1102 820V567
+      C1102 553 1110 544 1124 548Z"/>
+  </g>
+
+  <g id="network">
+    <g id="network-links" fill="none" stroke="#036333" stroke-width="18" stroke-linejoin="round">
+      <path id="left-links" d="M362 365 638 236 497 432 362 350"/>
+      <path id="right-links" d="M912 365 638 236 778 432 912 350"/>
+    </g>
+    <g id="secondary-nodes" fill="#036333">
+      <circle id="left-secondary-node" cx="497" cy="432.5" r="37"/>
+      <circle id="right-secondary-node" cx="778.5" cy="432.5" r="37"/>
+    </g>
+    <g id="primary-nodes" fill="#1CDF77">
+      <circle id="left-primary-node" cx="362.5" cy="352.5" r="54"/>
+      <circle id="center-primary-node" cx="637.5" cy="236.5" r="69.5"/>
+      <circle id="right-primary-node" cx="911.5" cy="352" r="53.5"/>
+    </g>
+  </g>
+
+  <g id="waveform" fill="#1CDF77">
+    <rect id="waveform-bar-1" x="323" y="629" width="59" height="109" rx="29.5"/>
+    <rect id="waveform-bar-2" x="410" y="571" width="68.5" height="224" rx="34.25"/>
+    <rect id="waveform-bar-3" x="506" y="521" width="69" height="318" rx="34.5"/>
+    <rect id="waveform-bar-4" x="604" y="430.5" width="69" height="456" rx="34.5"/>
+    <rect id="waveform-bar-5" x="702" y="528" width="70" height="298" rx="35"/>
+    <rect id="waveform-bar-6" x="799" y="583" width="68.5" height="194.5" rx="34.25"/>
+    <rect id="waveform-bar-7" x="894.5" y="629" width="60" height="109" rx="30"/>
+  </g>
+</svg>
