@@ -14,18 +14,12 @@ export function Sidebar() {
       <Button variant="ghost" className="nav-item nav-active" onClick={() => navigate('/')}>
         <span className="nav-dot"/>Sound monitor
       </Button>
-      <Button variant="ghost" className="nav-item" onClick={() => navigate('/activity')}>
-        <span className="nav-icon">◷</span>Activity
-      </Button>
       <div className="sidebar-bottom">
         <div className="privacy-card">
           <span className="privacy-icon">✳</span>
           <strong>Your sound stays yours</strong>
           <p>Audio is analyzed on this device and is not recorded or sent.</p>
         </div>
-        <Button variant="ghost" className="nav-item" onClick={() => navigate('/help')}>
-          <span className="nav-icon">?</span>Help &amp; feedback
-        </Button>
       </div>
     </aside>
   )
