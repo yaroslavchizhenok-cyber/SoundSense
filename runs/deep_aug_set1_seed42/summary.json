@@ -1,0 +1,20 @@
+{
+  "run": "deep_aug_set1_seed42",
+  "model": "deep",
+  "augment": true,
+  "train_set": 1,
+  "stats_file": "stats_trainSet1.json",
+  "seed": 42,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 32,
+  "max_epochs": 50,
+  "patience": 10,
+  "limit": 0,
+  "epochs_run": 23,
+  "best_epoch": 13,
+  "best_val_macro_f1": 0.7197071314946666,
+  "parameters": 389605,
+  "device": "cuda",
+  "minutes": 0.8
+}
