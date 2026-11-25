@@ -1,0 +1,20 @@
+{
+  "run": "small_set2_seed42",
+  "model": "small",
+  "augment": false,
+  "train_set": 2,
+  "stats_file": "stats_trainSet2.json",
+  "seed": 42,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 32,
+  "max_epochs": 50,
+  "patience": 10,
+  "limit": 0,
+  "epochs_run": 50,
+  "best_epoch": 49,
+  "best_val_macro_f1": 0.6133332808604512,
+  "parameters": 4965,
+  "device": "cuda",
+  "minutes": 0.5
+}

@@ -1,0 +1,79 @@
+{
+  "threshold": 0.6,
+  "chosen_by": "set by hand: 0.6 keeps 88% of answers; higher thresholds add little accuracy",
+  "val_answered": 0.8816986855409504,
+  "val_accuracy_when_answered": 0.7901376146788991,
+  "val_accuracy_no_threshold": 0.7512639029322548,
+  "table": [
+    {
+      "threshold": 0.3,
+      "answered": 0.9989888776541962,
+      "accuracy_when_answered": 0.7520242914979757
+    },
+    {
+      "threshold": 0.35,
+      "answered": 0.9979777553083923,
+      "accuracy_when_answered": 0.7527862208713273
+    },
+    {
+      "threshold": 0.4,
+      "answered": 0.9797775530839231,
+      "accuracy_when_answered": 0.759545923632611
+    },
+    {
+      "threshold": 0.45,
+      "answered": 0.9686552072800809,
+      "accuracy_when_answered": 0.767223382045929
+    },
+    {
+      "threshold": 0.5,
+      "answered": 0.9433771486349848,
+      "accuracy_when_answered": 0.77491961414791
+    },
+    {
+      "threshold": 0.55,
+      "answered": 0.9089989888776542,
+      "accuracy_when_answered": 0.7819799777530589
+    },
+    {
+      "threshold": 0.6,
+      "answered": 0.8816986855409504,
+      "accuracy_when_answered": 0.7901376146788991
+    },
+    {
+      "threshold": 0.65,
+      "answered": 0.8422649140546006,
+      "accuracy_when_answered": 0.7959183673469388
+    },
+    {
+      "threshold": 0.7,
+      "answered": 0.8038422649140546,
+      "accuracy_when_answered": 0.7949685534591195
+    },
+    {
+      "threshold": 0.75,
+      "answered": 0.7542972699696663,
+      "accuracy_when_answered": 0.8096514745308311
+    },
+    {
+      "threshold": 0.8,
+      "answered": 0.7007077856420627,
+      "accuracy_when_answered": 0.8167388167388168
+    },
+    {
+      "threshold": 0.85,
+      "answered": 0.6491405460060667,
+      "accuracy_when_answered": 0.82398753894081
+    },
+    {
+      "threshold": 0.9,
+      "answered": 0.5773508594539939,
+      "accuracy_when_answered": 0.861646234676007
+    },
+    {
+      "threshold": 0.95,
+      "answered": 0.4752275025278059,
+      "accuracy_when_answered": 0.9085106382978724
+    }
+  ]
+}
