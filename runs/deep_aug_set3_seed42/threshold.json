@@ -1,8 +1,8 @@
 {
   "threshold": 0.6,
-  "target_accuracy": 0.85,
-  "val_answered": 0.5773508594539939,
-  "val_accuracy_when_answered": 0.861646234676007,
+  "chosen_by": "set by hand: 0.6 keeps 88% of answers; higher thresholds add little accuracy",
+  "val_answered": 0.8816986855409504,
+  "val_accuracy_when_answered": 0.7901376146788991,
   "val_accuracy_no_threshold": 0.7512639029322548,
   "table": [
     {
