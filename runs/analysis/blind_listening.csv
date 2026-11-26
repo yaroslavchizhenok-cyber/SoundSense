@@ -1,0 +1,26 @@
+clip,file,condition,source_file,source_salience,true,pred,confidence,heard,verdict
+1,original/test/dog_bark/20571-3-1-0.wav,clean,20571-3-1-0.wav,2,dog_bark,engine_idling,0.9971,unclear,unclear
+2,original/test/dog_bark/77927-3-0-2.wav,clean,77927-3-0-2.wav,2,dog_bark,street_music,0.9958,street_music,agrees_with_model
+3,synth/test/dog_bark/dog_bark_0094_20571-3-1-0_university_snr0.wav,snr0,20571-3-1-0.wav,2,dog_bark,engine_idling,0.9957,engine_idling (not sure),agrees_with_model
+4,original/test/dog_bark/128240-3-0-20.wav,clean,128240-3-0-20.wav,1,dog_bark,children_playing,0.9951,dog_bark,agrees_with_label
+5,synth/test/dog_bark/dog_bark_0069_77927-3-0-2_kitchen_snr20.wav,snr20,77927-3-0-2.wav,2,dog_bark,street_music,0.9927,street_music,agrees_with_model
+6,synth/test/dog_bark/dog_bark_0094_20571-3-1-0_university_snr20.wav,snr20,20571-3-1-0.wav,2,dog_bark,engine_idling,0.9912,unclear,unclear
+7,synth/test/dog_bark/dog_bark_0094_20571-3-1-0_university_snr10.wav,snr10,20571-3-1-0.wav,2,dog_bark,engine_idling,0.9912,unclear,unclear
+8,original/test/dog_bark/77927-3-0-1.wav,clean,77927-3-0-1.wav,2,dog_bark,street_music,0.9905,dog_bark + street_music,both
+9,synth/test/dog_bark/dog_bark_0008_128240-3-0-20_house_snr20.wav,snr20,128240-3-0-20.wav,1,dog_bark,children_playing,0.9885,dog_bark,agrees_with_label
+10,original/test/children_playing/187110-2-0-8.wav,clean,187110-2-0-8.wav,1,children_playing,street_music,0.9877,children_playing,agrees_with_label
+11,synth/test/engine_idling/engine_idling_0018_15544-5-0-6_university_snr0.wav,snr0,15544-5-0-6.wav,1,engine_idling,air_conditioner,0.9874,engine_idling,agrees_with_label
+12,synth/test/engine_idling/engine_idling_0042_15544-5-0-16_room_snr0.wav,snr0,15544-5-0-16.wav,1,engine_idling,air_conditioner,0.9873,engine_idling,agrees_with_label
+13,original/test/dog_bark/77927-3-1-1.wav,clean,77927-3-1-1.wav,2,dog_bark,street_music,0.9857,street_music,agrees_with_model
+14,synth/test/engine_idling/engine_idling_0082_106014-5-0-2_house_snr20.wav,snr20,106014-5-0-2.wav,1,engine_idling,air_conditioner,0.9857,air_conditioner,agrees_with_model
+15,original/test/engine_idling/106014-5-0-2.wav,clean,106014-5-0-2.wav,1,engine_idling,air_conditioner,0.9851,air_conditioner,agrees_with_model
+16,original/test/dog_bark/14468-3-5-0.wav,clean,14468-3-5-0.wav,1,dog_bark,air_conditioner,0.9838,air_conditioner,agrees_with_model
+17,synth/test/engine_idling/engine_idling_0039_106014-5-0-1_room_snr10.wav,snr10,106014-5-0-1.wav,1,engine_idling,air_conditioner,0.9834,unclear,unclear
+18,synth/test/dog_bark/dog_bark_0027_14468-3-5-0_house_snr20.wav,snr20,14468-3-5-0.wav,1,dog_bark,air_conditioner,0.9824,unclear,unclear
+19,synth/test/dog_bark/dog_bark_0065_77927-3-1-1_university_snr20.wav,snr20,77927-3-1-1.wav,2,dog_bark,street_music,0.9818,street_music,agrees_with_model
+20,synth/test/children_playing/children_playing_0042_187110-2-0-8_kitchen_snr20.wav,snr20,187110-2-0-8.wav,1,children_playing,street_music,0.9815,children_playing,agrees_with_label
+21,original/test/dog_bark/128240-3-0-1.wav,clean,128240-3-0-1.wav,1,dog_bark,children_playing,0.9812,dog_bark,agrees_with_label
+22,synth/test/engine_idling/engine_idling_0055_15544-5-0-2_room_snr0.wav,snr0,15544-5-0-2.wav,1,engine_idling,air_conditioner,0.9803,unclear,unclear
+23,synth/test/engine_idling/engine_idling_0067_15544-5-0-3_room_snr0.wav,snr0,15544-5-0-3.wav,1,engine_idling,air_conditioner,0.9789,unclear,unclear
+24,synth/test/engine_idling/engine_idling_0086_15544-5-0-0_university_snr0.wav,snr0,15544-5-0-0.wav,1,engine_idling,air_conditioner,0.9786,engine_idling,agrees_with_label
+25,synth/test/engine_idling/engine_idling_0007_118558-5-2-3_room_snr0.wav,snr0,118558-5-2-3.wav,1,engine_idling,air_conditioner,0.9780,engine_idling,agrees_with_label

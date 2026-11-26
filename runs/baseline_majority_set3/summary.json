@@ -1,0 +1,11 @@
+{
+  "run": "baseline_majority_set3",
+  "model": "majority",
+  "augment": false,
+  "train_set": 3,
+  "seed": 42,
+  "limit": 0,
+  "best_epoch": "-",
+  "best_val_macro_f1": 0.06417657045840407,
+  "majority_class": "engine_idling"
+}

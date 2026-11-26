@@ -1,0 +1,249 @@
+{
+  "run": "baseline_majority_set1",
+  "stats_file": null,
+  "overall": {
+    "n": 1993,
+    "macro_f1": 0.06588432523051133,
+    "accuracy": 0.19719016557952834,
+    "per_class_f1": {
+      "engine_idling": 0.3294,
+      "air_conditioner": 0.0,
+      "dog_bark": 0.0,
+      "children_playing": 0.0,
+      "street_music": 0.0
+    },
+    "confusion_matrix": [
+      [
+        393,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        400,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        400,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        400,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        400,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "clean": {
+    "n": 493,
+    "macro_f1": 0.06348122866894199,
+    "accuracy": 0.18864097363083165,
+    "per_class_f1": {
+      "engine_idling": 0.3174,
+      "air_conditioner": 0.0,
+      "dog_bark": 0.0,
+      "children_playing": 0.0,
+      "street_music": 0.0
+    },
+    "confusion_matrix": [
+      [
+        93,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "snr20": {
+    "n": 500,
+    "macro_f1": 0.06666666666666667,
+    "accuracy": 0.2,
+    "per_class_f1": {
+      "engine_idling": 0.3333,
+      "air_conditioner": 0.0,
+      "dog_bark": 0.0,
+      "children_playing": 0.0,
+      "street_music": 0.0
+    },
+    "confusion_matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "snr10": {
+    "n": 500,
+    "macro_f1": 0.06666666666666667,
+    "accuracy": 0.2,
+    "per_class_f1": {
+      "engine_idling": 0.3333,
+      "air_conditioner": 0.0,
+      "dog_bark": 0.0,
+      "children_playing": 0.0,
+      "street_music": 0.0
+    },
+    "confusion_matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "snr0": {
+    "n": 500,
+    "macro_f1": 0.06666666666666667,
+    "accuracy": 0.2,
+    "per_class_f1": {
+      "engine_idling": 0.3333,
+      "air_conditioner": 0.0,
+      "dog_bark": 0.0,
+      "children_playing": 0.0,
+      "street_music": 0.0
+    },
+    "confusion_matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+}

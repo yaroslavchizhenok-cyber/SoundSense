@@ -1,0 +1,249 @@
+{
+  "run": "small_set2_seed42",
+  "stats_file": "stats_trainSet2.json",
+  "overall": {
+    "n": 1993,
+    "macro_f1": 0.6314086409488061,
+    "accuracy": 0.6266934269944807,
+    "per_class_f1": {
+      "engine_idling": 0.6338,
+      "air_conditioner": 0.6306,
+      "dog_bark": 0.6704,
+      "children_playing": 0.5319,
+      "street_music": 0.6904
+    },
+    "confusion_matrix": [
+      [
+        199,
+        127,
+        7,
+        60,
+        0
+      ],
+      [
+        11,
+        315,
+        14,
+        50,
+        10
+      ],
+      [
+        20,
+        36,
+        241,
+        76,
+        27
+      ],
+      [
+        4,
+        80,
+        33,
+        242,
+        41
+      ],
+      [
+        1,
+        41,
+        24,
+        82,
+        252
+      ]
+    ]
+  },
+  "clean": {
+    "n": 493,
+    "macro_f1": 0.6680478948963975,
+    "accuracy": 0.665314401622718,
+    "per_class_f1": {
+      "engine_idling": 0.641,
+      "air_conditioner": 0.6777,
+      "dog_bark": 0.7213,
+      "children_playing": 0.5611,
+      "street_music": 0.7391
+    },
+    "confusion_matrix": [
+      [
+        50,
+        31,
+        0,
+        12,
+        0
+      ],
+      [
+        3,
+        82,
+        2,
+        12,
+        1
+      ],
+      [
+        7,
+        4,
+        66,
+        17,
+        6
+      ],
+      [
+        2,
+        17,
+        10,
+        62,
+        9
+      ],
+      [
+        1,
+        8,
+        5,
+        18,
+        68
+      ]
+    ]
+  },
+  "snr20": {
+    "n": 500,
+    "macro_f1": 0.6862017678668174,
+    "accuracy": 0.682,
+    "per_class_f1": {
+      "engine_idling": 0.6788,
+      "air_conditioner": 0.6721,
+      "dog_bark": 0.7322,
+      "children_playing": 0.5845,
+      "street_music": 0.7634
+    },
+    "confusion_matrix": [
+      [
+        56,
+        32,
+        0,
+        12,
+        0
+      ],
+      [
+        3,
+        83,
+        2,
+        11,
+        1
+      ],
+      [
+        5,
+        5,
+        67,
+        17,
+        6
+      ],
+      [
+        1,
+        18,
+        9,
+        64,
+        8
+      ],
+      [
+        0,
+        9,
+        5,
+        15,
+        71
+      ]
+    ]
+  },
+  "snr10": {
+    "n": 500,
+    "macro_f1": 0.656841045116147,
+    "accuracy": 0.652,
+    "per_class_f1": {
+      "engine_idling": 0.6626,
+      "air_conditioner": 0.6532,
+      "dog_bark": 0.686,
+      "children_playing": 0.559,
+      "street_music": 0.7234
+    },
+    "confusion_matrix": [
+      [
+        54,
+        31,
+        0,
+        15,
+        0
+      ],
+      [
+        3,
+        81,
+        2,
+        11,
+        3
+      ],
+      [
+        5,
+        7,
+        59,
+        23,
+        6
+      ],
+      [
+        1,
+        18,
+        6,
+        64,
+        11
+      ],
+      [
+        0,
+        11,
+        5,
+        16,
+        68
+      ]
+    ]
+  },
+  "snr0": {
+    "n": 500,
+    "macro_f1": 0.5129223543340009,
+    "accuracy": 0.508,
+    "per_class_f1": {
+      "engine_idling": 0.5417,
+      "air_conditioner": 0.5267,
+      "dog_bark": 0.5414,
+      "children_playing": 0.4315,
+      "street_music": 0.5233
+    },
+    "confusion_matrix": [
+      [
+        39,
+        33,
+        7,
+        21,
+        0
+      ],
+      [
+        2,
+        69,
+        8,
+        16,
+        5
+      ],
+      [
+        3,
+        20,
+        49,
+        19,
+        9
+      ],
+      [
+        0,
+        27,
+        8,
+        52,
+        13
+      ],
+      [
+        0,
+        13,
+        9,
+        33,
+        45
+      ]
+    ]
+  }
+}

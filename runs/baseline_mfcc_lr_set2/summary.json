@@ -1,0 +1,18 @@
+{
+  "run": "baseline_mfcc_lr_set2",
+  "model": "mfcc_lr",
+  "augment": false,
+  "train_set": 2,
+  "seed": 42,
+  "limit": 0,
+  "best_epoch": "-",
+  "best_val_macro_f1": 0.5861687380727904,
+  "C": 10.0,
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "features": "20 MFCC (DCT of features.log_mel) mean+std over time"
+}
